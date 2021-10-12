@@ -304,4 +304,133 @@ header a    {
     .right-content h3   {
         margin-top: 0;
     }
+
+    /* Main */
+    /* Program */
+
+    .program    {
+        padding: 80px 255px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .program strong {
+        font-size: 22px;
+        line-height: 1.0909090909;
+    }
+
+    .program h1 {
+        font-size: 56px;
+        line-height: 1;
+    }
+
+    .program p  {
+        font-size: 22px;
+        line-height: 1.4545454545;
+        width: 770px;
+    }
+
+    .program-detail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .program-detail h3  {
+        font-size: 20px;
+        line-height: 1.2;
+        width: 290px;
+        height: 299px;
+    }
+
+    .program-detail h3:first-child:before, 
+    .program-detail h3:nth-child(2):before, 
+    .program-detail h3:last-child:before  {
+        margin-bottom: 32px;
+    }
+
+    .program-detail h3:nth-child(2), h3:last-child  {
+        margin-top: 0;
+        margin-left: 30px;
+    }
+
+    .program-detail h3:hover  {
+        background-color: #3141C5;
+        color: #FFF;
+    }
+
+    /* Curriculum */
+
+    .curriculum {
+        padding: 80px 255px;
+    }
+
+    .curriculum-main    {
+        width: 450px;
+        height: auto;
+    }
+
+    .curriculum-main strong {
+        font-size: 22px;
+        line-height: 1.0909090909;
+    }
+
+    .curriculum-main h1 {
+        font-size: 56px;
+        line-height: 1;
+        margin-top: 16px;
+    }
+
+    .curriculum-main p  {
+        font-size: 22px;
+        line-height: 1.4545454545;
+        margin-top: 32px;
+    }
+
+    .curriculum-main a  {
+        margin-top: 72px;
+    }
+
+    .curriculum-contents::after {
+        content: '';
+        display: block;
+        background-image: url("./img/img-curriculum.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        width: 450px;
+        height: 450px;
+        margin-left: 30px;
+    }
+
+    .curriculum-contents    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .curriculum-description {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .curriculum-description p {
+        width: 450px;
+    }
+
+    .curriculum-description p:first-child,
+    .curriculum-description p:last-child   {
+        margin-top: 0;
+    }
+
+    .curriculum-description p:last-child    {
+        margin-left: 30px;
+    }
 }
