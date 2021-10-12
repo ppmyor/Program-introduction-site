@@ -422,6 +422,8 @@ header a    {
     }
 
     .curriculum-description p {
+        font-size: 18px;
+        line-height: 1.4444444444;
         width: 450px;
     }
 
