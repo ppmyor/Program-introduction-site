@@ -76,6 +76,9 @@ header a    {
     background-color: #F4F5F7;
     height: 100vh;
     padding: 80px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .description h3 {
@@ -91,10 +94,6 @@ header a    {
     line-height: 1.5;
     letter-spacing: -0.01em;
     margin-top: 16px;
-}
-
-.right-content h3   {
-    margin-top: 40px;
 }
 
 /* Main */
@@ -131,7 +130,12 @@ header a    {
 
 .program-detail {
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .program-detail h3  {
     display: block;
     font-size: 18px;
@@ -139,11 +143,12 @@ header a    {
     line-height: 1.3333333333;
     letter-spacing: -0.02em;
     text-align: center;
-    width: 290px;
-    height: 291px;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 .program-detail h3:nth-child(2), h3:last-child  {
