@@ -256,28 +256,27 @@ header a    {
 }
 
 /* Subscribe Section */
-.subscribe  {
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F8FA;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 15px;
-    width: 100%;
-    height: 100vh;
-    background-color: #F2F8FA;
     text-align: center;
 }
 
-.subscribe h1::before    {
-    content: '';
+.subscribe  {
+    padding: 40px 15px;
+}
+
+section img    {
     display: block;
-    background-image: url("./img/img-banner.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 290px;
-    height: 240px;
+    width: 250px;
+    height: auto;
     margin-bottom: 16px;
+    
 }
 
 .subscribe h1   {
@@ -393,8 +392,22 @@ footer span:last-child  {
     .description    {
         height: 340px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         padding: 80px 255px;
+    }
+
+    .description h3 {
+        font-size: 26px;
+        line-height: 1.3076923077;
+        letter-spacing: -0.04em;
+    }
+
+    .description p  {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.4545454545;
+        letter-spacing: -0.01em;
     }
 
     .left-content   {
@@ -402,7 +415,7 @@ footer span:last-child  {
     }
 
     .right-content  {
-        margin-left: 80px;
+        margin-left: 110px;
         width: 450px;
     }
 
@@ -539,5 +552,85 @@ footer span:last-child  {
 
     .curriculum-description p:last-child    {
         margin-left: 30px;
+    }
+
+    /* Subscribe Section */
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 460px;
+    }
+
+    section img {
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+
+    .subscribe  {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 530px;
+        height: auto;
+        margin-left: 70px;
+    }
+
+    .subscribe h1   {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.05em;
+    }
+
+    .subscribe p    {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.4545454545;
+    }
+
+    .subscribe-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .subscribe-form input   {
+        width: 362px;
+        height: 56px;
+        padding: 16px 16px;
+    }
+
+    .subscribe-form input::placeholder  {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3333333333;
+    }
+
+    .subscribe-form button  {
+        font-size: 18px;
+        line-height: 1.3333333333;
+        padding: 15px 28.28px;
+        width: 160px;
+        height: auto;
+        margin-left: 8px;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    footer  {
+        display: flex;
+        flex-direction: row;
+        margin: 16px 255px;
+        padding: 0;
+    }
+
+    footer span:nth-child(2),
+    footer span:last-child  {
+        margin-top: 0;
+        margin-left: 16px;
     }
 }
